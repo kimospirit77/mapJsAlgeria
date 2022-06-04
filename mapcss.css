@@ -1,0 +1,25 @@
+body{
+    background-color:mediumseagreen;
+}
+header{
+  color: blue;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+
+
+.mapdiv{
+    width: 600px; 
+    margin: auto;
+}
+.mapdiv path{
+    fill: rgb(245, 127, 16);
+    stroke: brown;
+    stroke: width 2px;
+    transition: fill 0.3s;
+}
+.mapdiv :hover{
+    fill: goldenrod;
+}
